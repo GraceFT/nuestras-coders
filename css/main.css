@@ -1,0 +1,37 @@
+p {
+    margin-left: 390px;
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.block {
+    position: relative;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.image {
+    margin:10px 10px;
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+.image:after{
+    content: "Nombre y Apellido";
+    position: relative;
+    left:200px;
+    bottom: 25px;
+    left: 80px;
+    color: #fff;
+    font-size: 15px;
+}
+
+hr {
+    width: 80px;
+    border: 2px solid #000;
+    margin-left: 390px;
+}
+
