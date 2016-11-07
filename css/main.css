@@ -1,8 +1,17 @@
+body {
+    background-color: rgba(98,183,192,0.2);
+}
 p {
     margin-left: 390px;
     display: block;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(110,191,193,0.5);
+    margin:20px;
+    border-radius: 3px;
+    margin-left: 200px;
+    margin-right: 270px;
 }
 .block {
     position: relative;
@@ -13,25 +22,31 @@ p {
 }
 
 .image {
-    margin:10px 10px;
     display: inline-block;
     position: relative;
-    width: 220px;
-    height: 220px;
-}
-.image:after{
-    content: "Nombre y Apellido";
-    position: relative;
-    left:200px;
-    bottom: 25px;
-    left: 80px;
-    color: #fff;
-    font-size: 15px;
+    width: 210px;
+    height: 210px;
+    margin: 10px;
+    background-color: #000;
+
 }
 
 hr {
-    width: 80px;
+    width: 1100px;
     border: 2px solid #000;
-    margin-left: 390px;
+    margin-left: 200px;
+}
+
+.image:hover{
+    background-color: rgba(110,191,193,0.5);
+    transition: all 500ms ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+.li {
+    position: relative;
+    bottom:30px;
+    left:80px;
+    color: #fff;
 }
 
